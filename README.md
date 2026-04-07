@@ -1,18 +1,18 @@
 # DeepSeek Translator
 
-**DeepSeek Translator** to narzędzie do szybkiego tłumaczenia tekstu przy użyciu API DeepSeek. Projekt posiada wygodne GUI w Pythonie i funkcję automatycznego wklejania przetłumaczonego tekstu.
+**DeepSeek Translator** This is a tool for fast text translation using the DeepSeek API. The project features a convenient Python GUI and an automatic paste function for translated text.
 
 ## Funkcje
 
-- Tłumaczenie tekstu na wybrany język (angielski, polski, niemiecki, ukraiński, rosyjski, hiszpański, francuski)
-- Obsługa skrótu klawiszowego `Ctrl + Space` do natychmiastowego przetłumaczenia zaznaczonego tekstu
-- Automatyczne kopiowanie wyniku do schowka i wklejanie w miejsce oryginalnego tekstu
-- Graficzny interfejs użytkownika (Tkinter) z możliwością zmiany języka docelowego i zapisywania klucza API
-- Opcja automatycznego wyświetlania okna translatora na wierzchu po tłumaczeniu
-- Konfiguracja przechowywana w pliku `config.json`
+- Translation of the text into the selected language (English, Polish, German, Ukrainian, Russian, Spanish, French)
+- Handling the keyboard shortcut `Ctrl + Space` for instant translation of selected text
+- Automatic copying of the result to the clipboard and pasting in place of the original text
+- Graphical User Interface (Tkinter) with the ability to change the target language and save the API key.
+- The option to automatically display the translator window on top after translation
+- Configuration stored in the "config.json" file
 
 ## Instalacja
 
-1. Zainstaluj wymagane biblioteki:
+1. Install the required libraries:
 ```bash
 pip install keyboard pyperclip requests
